@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/logoutMenu"
+        android:orderInCategory="100"
+        app:showAsAction = "always"
+        android:title = "Logout">
+
+    </item>
+
+    <item
+        android:id="@+id/profileMenu"
+        android:orderInCategory="200"
+        app:showAsAction = "always"
+        android:icon="@drawable/ic_profile_image">
+
+    </item>
+
+    <item
+        android:id="@+id/settingsMenu"
+        android:orderInCategory="300"
+        app:showAsAction = "never"
+        android:title= "Settings">
+
+    </item>
+
+    <item
+        android:id="@+id/TripsMenu"
+        android:orderInCategory="400"
+        app:showAsAction = "never"
+        android:title= "Your Trips">
+
+    </item>
+
+    <item
+        android:id="@+id/helpMenu"
+        android:orderInCategory="500"
+        app:showAsAction = "never"
+        android:title = "Help">
+
+    </item>
+</menu>
